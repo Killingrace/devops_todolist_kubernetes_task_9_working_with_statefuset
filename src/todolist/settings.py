@@ -12,13 +12,11 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 import os
 from pathlib import Path
 
-SECRETS_DIR = Path(__file__).parent.parent / "secrets"
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRETS_DIR = Path(__file__).parent.parent / "secrets"
+SECRETS_DIR = Path("/app/secrets")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
