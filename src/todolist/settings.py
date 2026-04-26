@@ -18,7 +18,7 @@ SECRETS_DIR = Path(__file__).parent.parent / "secrets"
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY", "")
+SECRETS_DIR = Path(__file__).parent.parent / "secrets"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
